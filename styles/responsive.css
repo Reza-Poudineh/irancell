@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1100px) {
+    .header {
+        display: none;
+    }
+    .achievement {
+        height: 500px;
+    }
+    .lens .gift .right {
+        display: none;
+    }
+    .lens .gift .left {
+        display: none;
+    }
+    .shoping {
+        height: 620px!important;
+    }
+    .shoping .shop .left {
+        width: 100%;
+    }
+    .shoping .shop .left img {
+        width: 100%;
+        height: 400px;
+    }
+    .upper-footer .items {
+        display: none;
+    }
+    .upper-footer .mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .upper {
+        display: none;
+    }
+    .bottom {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .shoping {
+        height: 2050px;
+        margin: auto;
+    }
+    .shoping .shop {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .shoping .shop img {
+        margin: auto;
+    }
+    .shoping .shop .left {
+        height: 100%;
+        width: 210%;
+    }
+    .shoping .shop .left img {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .shoping {
+        height: 2000px!important;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    .shoping .shop .left {
+        width: 100%;
+    }
+    .shoping .shop .left img {
+        width: 100%;
+        height: 310px;
+    }
+    .footer .row  {
+        background-color: #f2f2f2;
+
+    }
+    .footer .right {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    .footer .news{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#f2f2f2;
+
+    }
+    .footer .picture {
+        padding-top: 10px;
+        font-size: 12px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#f2f2f2;
+    }
+
+
+}
